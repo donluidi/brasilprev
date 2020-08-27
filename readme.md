@@ -11,7 +11,7 @@ Cache EhCache
 Spring JWT authentication token
 
 RUN
-mvn spring-boot:run
+mvn spring-boot:run or mvn package -Dmaven.test.skip=true
 
 Docker
 docker build . -t brasilprev:customerbase
